@@ -2,7 +2,7 @@
 import random
 
 attempts = 0
-computer_number = random.randint(0, 3)
+computer_number = random.randint(0, 100)
 
 while attempts < 5:
     my_number =input("Guess A Number 1-100! ")
